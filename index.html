@@ -23,6 +23,14 @@
             <li><a href="#" class="hover:text-cyan-400">About</a></li>
             <li><a href="#" class="hover:text-cyan-400">Contact</a></li>
         </ul
+            // Get the nav element
+const nav = document.querySelector('.nav');
+
+// Add an event listener to toggle the nav
+document.querySelector('.nav-toggle').addEventListener('click', () => {
+  nav.classList.toggle('nav-open');
+});
+            
              <nav class="space-x-6 hidden md:block">
         <a href="#" class="hover:text-indigo-600">Home</a>
         <a href="#" class="hover:text-indigo-600">About</a>
